@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 public void play(View view){
   Button button=(Button) view;
     Log.i("button pressed",button.getTag().toString());
+	Log.i("Button Works ","button works");
     mediaPlayer=MediaPlayer.create(this,getResources().getIdentifier(button.getTag().toString(),
 
 
